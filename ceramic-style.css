@@ -1,0 +1,64 @@
+body{ font-family: "Noto Sans KR", sans-serif;
+}
+  
+  
+
+h1,h2,h3,h4{
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-text-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+.card-hover:hover .card-text-overlay {
+  transform: translateY(0);
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* 네비 */
+.nav-link:hover,
+.nav-link.active {
+    color: #ceaf6e !important;
+}
+
+
+/* 헤더 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(screenshots/main.jpg);
+    background-size:contain;
+    background-position:left;
+    background-attachment: fixed;
+}
+
+ /* 테이블 내 글자 색상 */
+ .table-bordered {
+    color: black;
+  }
+
+  /* 테이블 셀 배경색 */
+  .table-bordered td,
+  .table-bordered th {
+    background-color: white !important;
+  }
+
+/* 서비스 */
+.card-hover:hover {
+    background-color: #ffc10726;
+}
